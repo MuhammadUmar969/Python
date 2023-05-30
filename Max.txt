@@ -1,0 +1,12 @@
+arr=[]
+for i in range(5):
+    a= int(input("Enter any number"))
+    arr.append(a)
+print(arr)
+maxm=arr[0]
+
+for i in arr:
+    if maxm>i:
+        maxm = i
+        
+print(maxm)
